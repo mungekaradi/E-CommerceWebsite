@@ -1,0 +1,126 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header {
+    padding: 8px;
+    background: rgb(142, 137, 137);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#search {
+    padding: 5px;
+    padding-right: 320px;
+    margin-left: 400px;
+    border-radius: 10px;
+    border: none;
+}
+.checked {
+    color: orange;
+}
+.go {
+    padding: 6px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-in {
+    padding: 6px;
+    background-color: white;
+    border: none;
+    border-color: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 340px;
+}
+.btn-up {
+    padding: 6px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-color: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    background-color:  rgb(142, 137, 137);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+a {
+    background-color:  rgb(142, 137, 137);
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+a:hover {
+    background-color: rgb(180, 178, 178);
+}
+li {
+    float: left;
+}
+.image {
+    max-width: 400px;
+    height: 300px;
+}
+.main-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.card {
+    max-width: 240px;
+    text-align: center;
+    background-color: white;
+    margin-left: 50px;
+    display: inline-block;
+    box-shadow: 0 0 5px 0;
+}
+.price {
+    color: red;
+}
+.card button {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+}
+.card button:hover {
+    background-color: rgb(75, 69, 69);
+}
+.my-levis {
+    width: 240px;
+    max-height: 300px;
+}
+.my-leisara {
+    width: 240px;
+    max-height: 300px;
+}
+.my-nike {
+    width: 240px;
+    max-height: 300px;
+}
+.my-jeans {
+    width: 240px;
+    max-height: 300px;
+}
+footer {
+    padding: 10px;
+    color: white;
+    background-color:  rgb(142, 137, 137);
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
